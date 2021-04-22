@@ -14,7 +14,7 @@ Project Front-end
 'Home page looks like this:'
 ![Alt text](public/img/Home.png?raw=true "Home page")
 'Message page looks like this:'
-![Alt text](public/img/Message.png?raw=true "About page")
+![Alt text](public/img/message.png?raw=true "About page")
 
 ER diagram:
 ![Alt text](public/img/ERDiagram.png?raw=true "Home page")
