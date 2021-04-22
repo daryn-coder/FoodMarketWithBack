@@ -1,0 +1,437 @@
+.body{
+    opacity: 0;
+    background: url("https://img.huffingtonpost.com/asset/5cd354ba2300005600b7468c.jpeg?ops=1778_1000") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.intro{
+    height: 150px;
+    background-color: transparent;
+}
+#top{
+    padding: 30px;
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 20px;
+    color: antiquewhite;
+    font-family: fantasy;
+}
+/* Header */
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 10px 20px;
+    width: 100%;
+    position: relative;
+}
+.header > div{
+    cursor: pointer;
+    color: red;
+    font-size: 20px;
+}
+.header > div:hover{
+    cursor: pointer;
+    color: blue;
+    font-size: 25px;
+}
+#logo{
+    width: 40px;
+    height: 40px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: yellow;
+    min-width: 160px;
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    font-size: small;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* Main */
+#Fast-Food{
+    background: url("https://s-english.ru/images/topik/fast-food.jpg") no-repeat;
+    background-size: cover;
+}
+#Fruits{
+    display: none;
+    background: url("https://img1.mashed.com/img/uploads/2017/06/fruit-main.jpg") no-repeat;
+    background-size: cover;
+}
+#Drinks{
+    display: none;
+    background: url("https://mmc-eg.com/wp-content/uploads/Soft_natural_drinks.jpg") no-repeat;
+    background-size: cover;
+}
+#Meat{
+    display: none;
+    background: url("https://previews.123rf.com/images/vicushka/vicushka1905/vicushka190500031/122031290-raw-meat-in-cooking-pot-on-kitchen-table-background-with-vegetables-seasoning-and-kitchen-utensils-t.jpg") no-repeat;
+    background-size: cover;
+}
+#FishAndSeafood{
+    display: none;
+    background: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/seafood-on-black-background-jelena-jovanovic.jpg") no-repeat;
+    background-size: cover;
+}
+#DairyFoods{
+    display: none;
+    background: url("https://s3.envato.com/files/258541007/DSC07542-1.jpg") no-repeat;
+    background-size: cover;
+}
+#Salad{
+    display: none;
+    background: url("https://wallpapercave.com/wp/wp2170711.jpg") no-repeat;
+    background-size: cover;
+}
+#Pizza{
+    display: none;
+    background: url("https://pro2-bar-s3-cdn-cf6.myportfolio.com/9fe04dc5390759f76ebced0e8cde5619/a1dadab2-09f2-40a4-ad10-039e2e39684c_rw_1200.jpg?h=469ae719acadd2beeae217778e149dc1") no-repeat;
+    background-size: cover;
+}
+.menu-content {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.menu-content > div > img{
+    width: 250px;
+    height: 150px;
+}
+.menu-content > div > img:hover {
+    cursor: pointer;
+}
+.menu-content > div > div{
+    background-color: black;
+    color: yellow;
+    width: 250px;
+    height: 130px;
+    text-align: center;
+}
+.price{
+    color: red;
+    font-size: large;
+}
+.border{
+    margin-top: 15px;
+    border-style: solid;
+}
+.deals{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(241, 241, 131);
+}
+.discount{
+    width: 30%;
+    background-color: black;
+    border-radius: 20px;
+    text-align: center;
+    margin: 5% 0;
+
+}
+.discount-content{
+    padding: 5% 20%;
+    font-size: x-large;
+    color: white;
+}
+.procent{
+    color: whitesmoke;
+    font-size: xx-large;
+    text-align: center;
+}
+.top{
+    background-color: rgb(241, 241, 131);
+    height: 60px;
+}
+.ffff{
+    display: flex;
+}
+.left{
+    width: 5%;
+    background-color: rgb(241, 241, 131);
+}
+#text{
+    padding: 20px;
+    color: antiquewhite;
+    width: 90%;
+    text-align: center;
+    letter-spacing: 20px;
+    font-size: 45px;
+    font-family: fantasy;
+}
+/* footer design */
+.footer> div{
+    color: red;
+    display: flex;
+    justify-content: space-around;
+}
+#contact{
+    font-size: 45px;
+    padding: 30px;
+    text-align: center;
+    color: blue;
+}
+#address{
+    padding: 1em;
+    font-size: x-large;
+    width: 48%;
+}
+#address>div{
+    display: block;
+    padding: 10px;
+}
+#location,#instagram,#gmail,#telephone{
+    display: inline;
+    width: 3%;
+}
+#city,#page{
+    display: inline;
+    cursor: pointer;
+}
+#map{
+    
+    padding: 1rem;
+    width: 45%;
+    margin-right: 10px;
+    background-color: rgb(0, 0, 0,0.8);
+}
+#inputs{
+    display: inline;
+    width: fit-content;
+}
+.gmail{
+    height: 20px;
+    border-radius: 3px;
+    
+    margin-bottom: 1em;
+}
+.lang{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    color: cornsilk;
+   
+}
+.lang a{
+    color: cornsilk;
+    text-decoration: none;
+    display: inline;
+    cursor: pointer;
+    font-weight: 600;
+}
+#inputs input{
+    display: block;
+}
+#txtarea{
+    height: 135px;
+}
+.form2 form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.choose{
+   padding-left: 0%;
+   padding-top: 0%;
+}
+
+/* design of order form */
+.form{
+    min-width: 100%;
+    min-height: 657px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+.form-content{
+    background-color: cadetblue;
+    width: 80%;
+    display: block;
+    border-radius: 2%;
+}
+#basket{
+    text-align: center;
+    color: red;
+    font-family:  Tahoma, Verdana, sans-serif;
+}
+
+#adhome{
+    padding: 1em;
+    color: red;
+    float: right;
+    display: none;
+}
+.buttons{
+   float: right;
+   padding: 1em;
+}
+.buttons>button{
+    display: inline;
+}
+.inputt{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 1em;
+}
+input,select{
+    padding: 1em;
+}
+/* after ordering */
+.letter{
+    min-width: 100%;
+    min-height: 100%;
+    padding-top: 10%;
+    color: #f1f1f1;
+    position: absolute;
+    background: url("https://www.adweek.com/wp-content/uploads/2020/03/behr-zoom-background-feature-2020-600x315.jpg") no-repeat;
+    background-size: cover;
+    text-align: center;
+    overflow: hidden;
+}
+.letter>h1{
+    color: blue;
+}
+/* mobile version */
+.nav{
+    display: none;
+}
+
+#toggle{
+    display: none;
+}
+@media(max-width:768px){
+    .letter{
+        min-width: 100%;
+        min-height: 100%;
+        padding-top: 10%;
+        color: #f1f1f1;
+        display: none;
+        position: absolute;
+        background: url("https://www.adweek.com/wp-content/uploads/2020/03/behr-zoom-background-feature-2020-600x315.jpg") no-repeat;
+        background-size: cover;
+        text-align: center;
+        overflow: hidden;
+    }
+    .buttons{
+        display: flex;
+        justify-content: space-around;
+        float: none;
+        margin: 0 auto;
+    }
+    .buttons>button{
+        
+        margin: 0 auto;
+    }
+    .inputt{
+        display: block;
+    }
+    input,select{
+        width: 100%;
+    }
+    .footer> div{
+        color: red;
+        display: block;
+    }
+
+    #address{
+        padding: 1em;
+        font-size: x-large;
+        width: 100%;
+    }
+    #address>div{
+        display: block;
+        padding: 10px;
+    }
+    #location,#instagram,#gmail,#telephone{
+        display: inline;
+        width: 10%;
+    }
+    #city,#page{
+        display: inline;
+        cursor: pointer;
+    }
+    /* #map{
+        height: 270px;
+        width: 80%;
+        margin: 0 auto;
+    } */
+
+
+    .deals{
+        display: block;
+        background-color: rgb(241, 241, 131);
+        padding: 10px;
+    }
+    .discount{
+        margin: 0 auto;
+        width: 80%;
+        background-color: black;
+        border-radius: 20px;
+        text-align: center;
+    }
+
+    .nav{
+        font-size: xx-large;
+        color: #f1f1f1;
+    }
+    label{
+        display: block;
+        cursor: pointer;
+    }
+    #toggle:checked + .header{
+        display: none;
+    }
+    .intro{
+        height: 250px;
+        background-color: transparent;
+    }
+
+    .header{
+        display: block;
+        text-align: center;
+        background-color: black;
+    }
+    .header  div{
+        cursor: pointer;
+        color: rgb(255, 187, 0);
+        font-size: 30px;
+        padding: 0.2em;
+    }
+    .header .div{
+        border-bottom: solid 1px gray;
+    }
+    .form-content{
+        background-color: cadetblue;
+        width: 100%;
+    }
+}
