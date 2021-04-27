@@ -460,7 +460,7 @@
                     </div>
                     <div>
                         <img id="gmail" src="https://www.google.com/gmail/about/static/images/logo-gmail.png?cache=1adba63" alt="">
-                        <a href="190103315@stu.sdu.edu.kz">190103315@stu.sdu.edu.kz</a>
+                        <a href="190103315@stu.sdu.edu.kz">190103397@stu.sdu.edu.kz</a>
                     </div>
                     <div>
                         <img id="telephone" src="https://www.clipartmax.com/png/middle/2-23363_icon-telephone-png.png" alt="">

@@ -22,7 +22,7 @@ class EmailController extends Controller
 
         //dd(request()->all());
         
-        Mail::to('190103315@stu.sdu.edu.kz')->send(new Email($data));
+        Mail::to('190103397@stu.sdu.edu.kz')->send(new Email($data));
         return FoodController::food();
     }
 }

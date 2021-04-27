@@ -35,6 +35,6 @@ class Email extends Mailable
      */
     public function build()
     {
-            return $this->from('190103315@stu.sdu.edu.kz')->view('mail.mail')->attach($this->data['file']->getRealPath(),['as'=>$this->data['file']->getClientOriginalName()]);
+            return $this->from('aknrdlt@gmail.com')->view('mail.mail')->attach($this->data['file']->getRealPath(),['as'=>$this->data['file']->getClientOriginalName()]);
     }
 }
